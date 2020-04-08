@@ -6,7 +6,7 @@ async function sendEmail(body){
         return Promise.reject('faltan campos por llenar')
     }
 
-    const { email, message , subject} = body
+    const { email, message , subject } = body
     contentHTML = `
     <h1>Information YourDriver</h1>
     <ul>
